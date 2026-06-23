@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Game Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <section class="topbar">
+        <div>
+          <p class="eyebrow">MCP Admin Project Builder</p>
+          <h1>Game Project</h1>
+        </div>
+        <div class="stats">
+          <span>Score <strong id="score">0</strong></span>
+          <span>Time <strong id="time">30</strong>s</span>
+        </div>
+      </section>
+      <section id="pond" class="pond" aria-label="Fish game area">
+        <button id="fish" class="fish" aria-label="Catch fish">🐟</button>
+        <div id="message" class="message">Catch as many fish as you can.</div>
+      </section>
+      <button id="restart" class="restart">Restart</button>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
